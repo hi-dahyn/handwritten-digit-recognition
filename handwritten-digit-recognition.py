@@ -12,6 +12,7 @@ with tf.device("/GPU:0"):
     y = tf.constant(2.0, dtype=tf.float32)
     z = x + y
 
+
 import re
 import nltk
 import seaborn as sns
